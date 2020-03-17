@@ -81,6 +81,17 @@ button{
 
 }
 @media (max-width: 500px){
-
+nav{
+    display: flex;
+    flex-direction: column;
     
+}
+    .topSection{
+        display:flex;
+       flex-direction: column; 
+    }
+    .bottomSection{
+        display:flex;
+       flex-direction: column; 
+    }
 }

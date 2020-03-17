@@ -1,3 +1,86 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/**{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border:1px solid grey;
+}*****/
+
+/**********Header*****************************/
+
+.topnav{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    
+}
+ nav{
+     display:flex;
+     align-items: center;
+     width: 80%;
+     justify-content: space-evenly;
+ }
+ .header{
+   display: flex;
+   flex-wrap: wrap;
+justify-content: space-between;}
 
 
+.textbutton{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    padding-top: 10%;
+    
+    }
+
+    .code{
+        padding: 5%;
+    }
+
+    h1{
+        font-size: 60px;
+        font-family: 'Anton', sans-serif;
+    
+    }
+button{
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;}
+  /*********Top Section*******************************/
+  .topSection{
+      display:flex;
+      flex-direction: row;
+  }
+
+  .middle-img{
+      width:100%;
+
+  }
+    /***************bottom Section***********/
+    .bottomSection{
+        display:flex;
+        flex-direction: row;
+    }
+/***********************footer**************/
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+/***************media queries**************/
+
+@media (max-width: 800px){
+
+    .textbutton{
+        justify-content: flex-end;
+    }
+
+}
+@media (max-width: 500px){
+
+    
+}
